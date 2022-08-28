@@ -1,6 +1,6 @@
 import React from "react";
 import { ImageProject } from './components/ImageProject';
-import * as data from "../data/project.json"
+import * as data from "../../data/project.json"
 export function ProjectContainer(text,ImgSrc){
     return (<>
         <div className={styles.projectFrame}>
