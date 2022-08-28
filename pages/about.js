@@ -1,4 +1,4 @@
-import { NavBar } from "./components/NavBar";
+import { NavBar } from "../components/NavBar";
 import styles from "../styles/Home.module.css"
 const About = () => (<>
     

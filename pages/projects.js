@@ -1,5 +1,5 @@
-import { NavBar } from "./components/NavBar";
-import { ImageProject } from './components/ImageProject';
+import { NavBar } from "../components/NavBar";
+import { ImageProject } from '../components/ImageProject';
 import styles from "../styles/Home.module.css";
 import * as data from "../data/project.json"
 const Projects = () => (<>
