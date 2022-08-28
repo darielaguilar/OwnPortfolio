@@ -1,0 +1,10 @@
+{
+    "habana":{
+        "title":"Habana Hard Dance",
+        "description":"Habana Hard Dance is a movement to promote the Hard genres, especially Hardstyle, Techno Hardcore Gabber(Hardcore) and Hard Techno. Founded in April 2019 by Rour Thunderz, Ikari Night and D-Acore. Cuba is a country where Hard genres are beginning to attract attention and one of our goals is for all lovers of this music to find the necessary information about what is happening with these great styles here in the country and around the world. informing you of all events. We also give detailed information on all the styles within the Hard Dance so that we Cubans learn a little more every day about this wonderful music."
+    },
+    "shop":{
+        "title":"Online e-commerce",
+        "description":"This is a online store made with React and NestJS, it have his admin site for adding, removing and edit products. Already have a cart inventory shoping system"
+    }
+}
