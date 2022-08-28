@@ -6,7 +6,11 @@ const About = () => (<>
     <div className={styles.description}>
         <h1>Resume</h1>
         <hr></hr>
-        <p className={styles.description}>Experiencia en administracion de redes con Citrix/Ardence, desarrollador web,desktop y android, curso 3er año de licenciatura en educacion informatica modalidad curso por trabajadores una vez a la semana. He trabajado con REST APIs, frameworks frontend React y Angular, framework backend Django,NestJS,NextJS y Laravel. He hecho deploy con Azure,Heroku,Vercel,Cloud Clever y cPanel. En la parte desktop he trabajado usando Python,C#,C++ en Android usando el framework Xamarin con C# y React Native usando typescript</p>
+        <p className={styles.description}>My name is Dariel Aguilar I have 25 years old, right now I am living in Cuba, that is my current location</p>
+        <p className={styles.description}>Experience in network administration with Citrix/Ardence, web, desktop and android developer, 3rd year undergraduate course in computer education, course modality for workers once a week. I have worked with REST APIs, React and Angular frontend frameworks, Django,NestJS,NextJS and Laravel backend frameworks. I have deployed with Azure,Heroku,Vercel,Cloud Clever and cPanel. On the desktop part I have worked using Python, C#, C++ on Android using the Xamarin framework with C# and React Native using typescript</p>
+        
+        <p></p>
+    
     </div>
     </>
 )

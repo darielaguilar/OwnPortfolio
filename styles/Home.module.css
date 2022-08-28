@@ -106,16 +106,18 @@
   
 }
 .footer {
+  justify-content: center;
   font-size: 40px;
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   
 }
+
 .footer div{
   
-  margin: 10px;
+  margin: 7px;
 }
 .faContainer{
   justify-content: end;
@@ -157,9 +159,10 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 50px;
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
 .code {

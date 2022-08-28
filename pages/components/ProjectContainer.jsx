@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageProject } from './components/ImageProject';
+import { ImageProject } from './ImageProject';
 import * as data from "../../data/project.json"
 export function ProjectContainer(text,ImgSrc){
     return (<>
