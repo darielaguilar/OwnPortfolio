@@ -1,9 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 html,
 body {
+  width: auto;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -30,6 +29,13 @@ a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
 }
+@media (max-width: 450px) {
+  html{
+    width: auto;
+  }
+  
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

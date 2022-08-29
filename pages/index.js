@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar></NavBar>
-      <ImageWrapper src='/sunset-portfolio.jpg' height={150} width={300}></ImageWrapper>
+      <ImageWrapper src='/sunset-portfolio.jpg' height={350} width={600}></ImageWrapper>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="#">Dariel Aguilar portfolio!</a>

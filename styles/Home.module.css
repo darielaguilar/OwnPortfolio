@@ -122,10 +122,8 @@
 .faContainer{
   justify-content: end;
   display: flex;
-  
- 
-  
-}
+ }
+
 .footer a {
   display: inline;
   justify-content: end;
@@ -217,7 +215,7 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
@@ -233,8 +231,61 @@
     text-decoration: none;
     
   }
-}
+  .footer {
+    width: auto;
+    display: flex;
+    font-size: 17px;
+  }
 
+  .projectFrame{
+  
+    position: relative;
+    border-style: solid;
+    border-color: #111;
+    border-width: 2px;
+    border-radius: 8px;
+    margin: 15px;
+    margin-bottom: 344px;
+    width:100px;
+    padding: 1px;
+  }
+  .textContainer{
+    top: 100;
+    right: -205px;
+    width: 200px;
+    display: inline;
+    position: absolute;
+    margin: 0px;
+    text-align: justify;
+    font-size: 13px;
+    font-family:'Times New Roman', Times, serif;  
+    padding: 3px; 
+    
+  }
+  .projectFrame p{
+    
+    font-size: larger;
+    margin: 10px;
+    top: 100;
+    display: inline;
+    
+  }
+  .description{
+    margin: 0px;
+  }
+  .description h1{
+    margin-left: 70px;
+  }
+  .descriptionBio{
+    margin: 10px;
+    line-height: 1.3;
+    text-align: justify;
+  }
+}
+@viewport {    
+  width: device-width;   
+   min-zoom: 1;
+   }
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
